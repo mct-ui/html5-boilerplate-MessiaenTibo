@@ -12,6 +12,11 @@ html {
     padding: 24px 24px 0px;
 }
 
+img
+{
+    max-width: "width=device-width";
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
