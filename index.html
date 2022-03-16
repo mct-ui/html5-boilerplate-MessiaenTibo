@@ -27,9 +27,17 @@
     <body>
         <header>
             <h1>Hello world! This is my HTML5 boilerplate.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#heading2">heading2</a></li>
+                    <li><a href="#heading3">heading3</a></li>
+                    <li><a href="#list_lorem">list lorem</a></li>
+                    <li><a href="#table_country">table country</a></li>
+                </ul>
+            </nav>
             <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
         </header>
-        <h2>
+        <h2 id="heading2">
             Heading 2
         </h2>
         <p>
@@ -39,7 +47,7 @@
             <img src="img/yawning-cat.jpeg" alt="yawning cat">
             <figcaption>yawning cat by martina misar</figcaption>
         </figure>
-        <h3>
+        <h3 id="heading3">
             Heading 3
         </h3>
         <p>
@@ -55,15 +63,20 @@
         </h3>
         <p>
             Add an unorderd list with 3 list items here
-            <!--ul>li*3 + tab-->
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
         </p>
+        <!--ul>li*3 + tab-->
+        <ul id="list_lorem">
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+            </li>
+        </ul>
         <hr>
-        <table>
+        <table id="table_country">
             <tr>
                 <th>capital city</th>
                 <th>inhabitants</th>
